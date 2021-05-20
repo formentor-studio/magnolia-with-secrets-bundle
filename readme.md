@@ -98,7 +98,7 @@ As you will see the value matches the entry "vendorApiKey" of the secret "secret
 ![show secret](_dev/show-secret.png)
 ## Insights
 ### How to implement integration with Secrets manager
-Implements the integration with the Secret manager implementing the interface Extend the SecretsStorage and implement the method readModuleConfig()
+Implements the integration with the Secret manager implementing the interface SecretsStorage and implement the method readModuleConfig()
 
 ```java
 import java.util.HashMap;
