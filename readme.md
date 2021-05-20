@@ -61,6 +61,9 @@ export VAULT_TOKEN=myroot
 The project provides a *docker-compose* that starts a *Vault Server* and a *Magnolia instance* with the module **example-with-secrets** whose configuration is stored in [Vault](https://www.vaultproject.io/).
 #### 1. Start Hashicorp Vault and Magnolia using the docker-compose definition of the projet
 ```
+# Build the project
+$ mvn clean package
+# Launch the services
 $ docker compose up -d
 ```
 
