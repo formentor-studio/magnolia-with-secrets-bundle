@@ -1,0 +1,21 @@
+{
+  "request_id": "5e048af0-6656-278c-9ec8-494e807d2c13",
+  "lease_id": "",
+  "renewable": false,
+  "lease_duration": 0,
+  "data": {
+    "data": {
+      "paramA": "valueA",
+      "paramB": "valueB"
+    },
+    "metadata": {
+      "created_time": "2021-05-19T09:31:45.553658302Z",
+      "deletion_time": "",
+      "destroyed": false,
+      "version": 1
+    }
+  },
+  "wrap_info": null,
+  "warnings": null,
+  "auth": null
+}
