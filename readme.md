@@ -6,7 +6,7 @@ To solve the above issue, sensible data should be stored in a Secret Manager as 
 - Integration with Secrets manager: Hashicorp Vault, AWS Secrets manager (to be done) and Google Secret manager (to be done).
 - Population of secrets in configuration of modules.
 
-## Content
+## Modules
 ### with-secrets
 Maven module that implements the integration with Secrets managers and loads module configuration.
 ### magnolia-with-secrets-bundle-webapp
